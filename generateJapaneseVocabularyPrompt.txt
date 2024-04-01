@@ -22,5 +22,3 @@ Vocabulary;EnglishDefinition;SampleSentence;VocabularyAudio;SampleSentenceAudio;
 ---
 
 List of words:
-パン
-緊張する
