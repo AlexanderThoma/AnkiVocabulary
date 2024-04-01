@@ -1,0 +1,26 @@
+Create a CSV formatted table with the following 7 columns:
+1. "Vocabulary": Put the word from the list in the column "Vocabulary". Add the Furigana for Kanji in square brackets after the word.
+2. "EnglishDefinition": Write a short explanation of  "Vocabulary" without using any semicolon. If there are multiple possible meanings, separate them using a comma.  
+4. "SampleSentence": Create two sample sentences, separated by "<br>", for the word. Make sure to provide a meaningful examples.
+5. "VocabularyAudio": Leave this column empty.
+6. "SampleSentenceAudio": Leave this column empty.
+7. "Tags": Set this column to "unverified".
+ 
+Instructions:  
+- Use semicolons ONLY as delimiters between columns.
+- Do NOT use semicolons anywhere else.
+- Create your answer as csv code without markdown formatting.
+- After you have added all values for the columns, add the next result on a new line.
+
+Correct sample output for the word "学校" and "食べる":
+---
+```csv
+Vocabulary;EnglishDefinition;SampleSentence;VocabularyAudio;SampleSentenceAudio;Tags
+学校[がっこう];school;学校[がっこう]で友達[ともだち]と一緒[いっしょに]に勉強[べんきょう]する。<br>私[わたし]は高校[こうこう]の生徒[せいとう]だ。;;;unverified
+食[た]べる;eat;御飯[ごはん]を食[た]べよう<br>野菜[やさい]を食[た]べたら;;;unverified
+```
+---
+
+List of words:
+パン
+緊張する
